@@ -52,7 +52,7 @@ select count(distinct user_id) as Usuarios
 from clients;
 
 /*quantas vezes cada usuario usou o a sessao de terapia*/
-select count(c.user_id) as usuarios, count(e. session_id) as sessoes
+select distinct(count(c.user_id)) as usuarios, count(e. session_id) as sessoes
 from clients c
 join events e 
 on c.user_id = e.client_user_id;
@@ -76,9 +76,11 @@ select count(rating_id), value
 from ratings;
 
 /*numero de avaliaçoes por nota*/
-select distinct(value) as valor, count(rating_id) as nota_avaliaçao
-from ratings
-group by value;
+SELECT DISTINCT
+    (value) AS valor, COUNT(rating_id) AS nota_avaliaçao
+FROM
+    ratings
+GROUP BY value;
 
 /*quantas avaliaçoes estao visiveis e tem nota menor que 5*/
 select count(rating_id)
