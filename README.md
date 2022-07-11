@@ -33,5 +33,13 @@ Family conflicts: 3,000 times;
 Career-related topics: 2,106 times;
 Changes: 2,900 times
 
-[dash_zen_pdf.pdf](https://github.com/Thaisdahack/ZenKlub-case/files/9085207/dash_zen_pdf.pdf)
+![dash_zen_pdf_page-0001](https://user-images.githubusercontent.com/101371267/178295942-483e3845-a22d-42d7-8015-b06d4eb40b92.jpg)
+
+## Discussion and recommendations
+From the analyzed dataset, some conclusions can be taken into account, such as the quality of the service provided, which seems to please users, with great evaluations for the most part. An interesting aspect to be taken into account is the type of subject that leads customers to look for the service, it is observed that the reasons are not directly linked to careers themselves, but to more personal matters, such as relationships, family, anxiety (this yes that can be linked to career). Therefore, it is interesting that professionals do not accept consultations for a short period of time, which leads to the fact that the lack of time and, consequently, the anxiety that this condition can cause, is a fact of not seeking services when necessary. .
+It would be interesting to check further what happened with the sessions that scored below 4, since they are few and can provide important information regarding the retention of these people with the service provided.
+It would be possible to do a statistical analysis or a modeling to complement the possible causes of a client to feel comfortable or not in doing therapy sessions, but for the reliability and robustness of these results, it would be necessary to collect more information about the clients, such as : age, gender, profession, workload, work environment, company size, whether or not you have had therapy before, among others.
+Finally, from the data collected, it would be relevant to focus on more specific therapies regarding the main complaints of the clients, mainly in the agility of the attendances and proposing automated services that can meet these needs at an initial moment, without necessarily having the follow-up of a professional. in the first moment.
+
+
 
